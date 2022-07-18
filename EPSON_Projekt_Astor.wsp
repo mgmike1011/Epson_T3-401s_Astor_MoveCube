@@ -1,11 +1,11 @@
-ENVT0100,LM:2022/07/17 19:54:29:323,DS:0000003044,CS:03603,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/18 09:56:08:465,DS:0000003088,CS:21839,MA:FC-77-74-69-80-CE,EI:           
 sActiveChild="MoveCube_Program.prg"
 bMdiMaximized=False
 nProgramFileCount=2
 ProgramFile1 {
 	sName="Main.prg"
 	bOpened=True
-	nWinState=0
+	nWinState=1
 	Window {
 		nLeft=4
 		nTop=49
@@ -18,10 +18,10 @@ ProgramFile2 {
 	bOpened=True
 	nWinState=0
 	Window {
-		nLeft=0
-		nTop=0
-		nWidth=0
-		nHeight=0
+		nLeft=21
+		nTop=24
+		nWidth=722
+		nHeight=474
 	}
 }
 nIncludeFileCount=0
@@ -40,26 +40,26 @@ PointFile1 {
 nForceFileCount=0
 sActiveWindow="main.prg"
 CmdWindow {
-	bOpened=False
+	bOpened=True
 	Window {
-		nLeft=0
-		nTop=0
-		nWidth=0
-		nHeight=0
+		nLeft=656
+		nTop=79
+		nWidth=613
+		nHeight=452
 	}
 	nWinState=0
 }
 RunWindow {
 	bOpened=False
 	Window {
-		nLeft=0
-		nTop=0
-		nWidth=0
-		nHeight=0
+		nLeft=271
+		nTop=207
+		nWidth=743
+		nHeight=414
 	}
 	nWinState=0
 	nNumOfDisplays=1
-	nSplitterDistance=0
+	nSplitterDistance=364
 	Display1 {
 		nCamera=0
 		sSequences="1"
@@ -86,31 +86,31 @@ RunWindow {
 	}
 }
 IOLabelEditor {
-	bOpened=False
+	bOpened=True
 	Window {
 		nLeft=0
 		nTop=0
-		nWidth=0
-		nHeight=0
+		nWidth=1022
+		nHeight=452
 	}
-	nWinState=0
+	nWinState=1
 }
 IOMonitor {
 	bOpened=False
 	Window {
-		nLeft=0
-		nTop=0
-		nWidth=0
-		nHeight=0
+		nLeft=179
+		nTop=100
+		nWidth=520
+		nHeight=375
 	}
 }
 Simulator {
 	bOpened=False
 	Window {
-		nLeft=0
+		nLeft=491
 		nTop=0
-		nWidth=0
-		nHeight=0
+		nWidth=899
+		nHeight=558
 	}
 }
 TaskMgr {
@@ -134,10 +134,10 @@ Macros {
 RobotMgr {
 	bOpened=False
 	Window {
-		nLeft=0
+		nLeft=394
 		nTop=0
-		nWidth=0
-		nHeight=0
+		nWidth=966
+		nHeight=608
 	}
 }
 UserErrorEditor {
@@ -208,11 +208,11 @@ ProjectExplorer {
 	bVisionCalibsOpened=False
 	bGUIBOpened=False
 	bGUIBFormsOpened=False
-	bRobotPointsOpened=False
+	bRobotPointsOpened=True
 	bCommonPointsOpened=False
 	bForcesOpened=False
 	bCommonForcesOpened=False
-	bRobotsOpened1=False
+	bRobotsOpened1=True
 	bForceGuideOpened=False
 	bForceSequencesOpened=False
 }

@@ -1,14 +1,14 @@
-ENVT0100,LM:2022/07/17 19:47:28:977,DS:0000007262,CS:15467,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/18 09:55:10:385,DS:0000007297,CS:13060,MA:FC-77-74-69-80-CE,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
 	sGUID="0ca3ad77-3af9-44a0-9656-a944fdc817a3"
 	sPath="D:\\EpsonRC70\\Projects\\EPSON_Projekt_Astor\\"
 	sCreated="17.07.2022 10:25:39"
-	sLastModified="17.07.2022 21:47:28"
+	sLastModified="18.07.2022 11:55:10"
 	bBuildComplete=False
-	bFirstBuildComplete=False
-	bRebuildRequired=True
+	bFirstBuildComplete=True
+	bRebuildRequired=False
 	bClearControllerProject=False
 	bClearGlobalPreserves=False
 }
@@ -21,13 +21,13 @@ UserProperties {
 	bGlobalsDeclaredEachFile=False
 }
 ControllerConnection {
-	sName="Symulator"
-	sType="Virtual"
-	sIPAddress="127.0.0.1"
+	sName="USB"
+	sType="USB"
+	sIPAddress="N/A"
 	nPort=-1
-	sControllerName=""
-	nControllerType=6
-	sControllerTypeName="Virtual"
+	sControllerName="T3-401S"
+	nControllerType=458753
+	sControllerTypeName="T"
 }
 IOLabelFile {
 	sName="IOLabels.dat"
@@ -43,13 +43,13 @@ ProgramFile1 {
 	sName="Main.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="01.01.0001 00:00:00"
+	sTimeSavedInController="17.07.2022 08:25:39"
 }
 ProgramFile2 {
 	sName="MoveCube_Program.prg"
 	bCompiled=False
 	bStoreInController=True
-	sTimeSavedInController="01.01.0001 00:00:00"
+	sTimeSavedInController="18.07.2022 09:16:53"
 }
 nIncludeFileCount=0
 nPointFileCount=1
@@ -57,7 +57,7 @@ PointFile1 {
 	sName="robot1.pts"
 	nRobot=1
 	bDefault=True
-	sTimeSavedInController="01.01.0001 00:00:00"
+	sTimeSavedInController="18.07.2022 08:12:39"
 }
 nForceFileCount=0
 OperatorSettings {
@@ -401,7 +401,11 @@ OperatorSettings {
 IOCustomView1 {
 	sName=""
 	bVisible=True
-	nNumberOfRows=0
+	nNumberOfRows=1
+	Row0 {
+		nIOGroup=3
+		nPort=8
+	}
 }
 IOCustomView2 {
 	sName=""
@@ -425,6 +429,6 @@ FGFile1 {
 }
 bFGCompiled=False
 Simulator {
-	sSimProjFile="C:\\EpsonRC70\\Simulator\\Symulator\\SimObjects.dat"
+	sSimProjFile="C:\\EpsonRC70\\Simulator\\SO733_T300010276\\SimObjects.dat"
 }
 nPFFileCount=0

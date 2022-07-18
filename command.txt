@@ -1,0 +1,49 @@
+> HomeSet Pls(1) Pls(2) Pls(3) Pls(4)
+!!Error: 3201, Expected ','.
+> HomeSet Pls(1), Pls(2), Pls(3), Pls(4)
+> 
+
+> Home
+> Home
+> On Przyssawka
+!!Error: 3169, Undefined I/O label was specified.
+> On 8
+> On 6
+!!Error: 2342, Cannot change the status for output bit configured as remote output.
+> On 14
+> Off 8
+> On 8
+> Off 14
+> On 10
+> Of 10
+!!Error: 3100, Syntax error.
+> Off 10
+> On 10
+> On 11
+> On 9
+> On 12
+> On 13
+> On 14
+> On 15
+> Off 15
+> off 14
+> off 13
+> off 12
+> off 11
+>  off 10
+> off 9
+> off 8
+> off Przyssawka
+> 
+> on Przyssawka
+> off Przyssawka
+> on 11
+> on 8
+> Home
+!!Error: 4031, Cannot execute a motion command when the motor is in the off state.
+> on 8
+> on 8
+> off 8
+> on Przyssawka
+> off Przyssawka
+> 

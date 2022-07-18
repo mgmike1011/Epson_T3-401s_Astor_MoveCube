@@ -13,11 +13,11 @@ Function MoveCube(Place As Integer, Cube As Integer)
 	Power Low
 	Speed 100
 	Accel 100, 100
-	SpeedS 2500
-	AccelS 2500
+	SpeedS 500
+	AccelS 500
 	
 	'Definicja luku
-	Arch 1, 10, 10
+	Arch 1, 10, 20
 	
 	'Ustawienie Timera
 	TmReset 1
