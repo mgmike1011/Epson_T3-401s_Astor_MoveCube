@@ -46,4 +46,9 @@
 > off 8
 > on Przyssawka
 > off Przyssawka
+> on 8
+> off 7
+!!Error: 2342, Cannot change the status for output bit configured as remote output.
+> off 8
+> off 8
 > 

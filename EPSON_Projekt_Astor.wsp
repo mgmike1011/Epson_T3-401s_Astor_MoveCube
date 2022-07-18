@@ -1,7 +1,7 @@
-ENVT0100,LM:2022/07/18 09:56:08:465,DS:0000003088,CS:21839,MA:FC-77-74-69-80-CE,EI:           
-sActiveChild="MoveCube_Program.prg"
+ENVT0100,LM:2022/07/18 12:05:25:444,DS:0000003221,CS:14679,MA:FC-77-74-69-80-CE,EI:           
+sActiveChild="Command"
 bMdiMaximized=False
-nProgramFileCount=2
+nProgramFileCount=3
 ProgramFile1 {
 	sName="Main.prg"
 	bOpened=True
@@ -16,12 +16,23 @@ ProgramFile1 {
 ProgramFile2 {
 	sName="MoveCube_Program.prg"
 	bOpened=True
-	nWinState=0
+	nWinState=1
 	Window {
-		nLeft=21
+		nLeft=187
 		nTop=24
-		nWidth=722
-		nHeight=474
+		nWidth=720
+		nHeight=612
+	}
+}
+ProgramFile3 {
+	sName="Move_Cube_back_Program.prg"
+	bOpened=True
+	nWinState=1
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
 	}
 }
 nIncludeFileCount=0
@@ -54,8 +65,8 @@ RunWindow {
 	Window {
 		nLeft=271
 		nTop=207
-		nWidth=743
-		nHeight=414
+		nWidth=741
+		nHeight=410
 	}
 	nWinState=0
 	nNumOfDisplays=1
@@ -93,13 +104,13 @@ IOLabelEditor {
 		nWidth=1022
 		nHeight=452
 	}
-	nWinState=1
+	nWinState=0
 }
 IOMonitor {
 	bOpened=False
 	Window {
-		nLeft=179
-		nTop=100
+		nLeft=87
+		nTop=391
 		nWidth=520
 		nHeight=375
 	}
@@ -136,8 +147,8 @@ RobotMgr {
 	Window {
 		nLeft=394
 		nTop=0
-		nWidth=966
-		nHeight=608
+		nWidth=764
+		nHeight=527
 	}
 }
 UserErrorEditor {

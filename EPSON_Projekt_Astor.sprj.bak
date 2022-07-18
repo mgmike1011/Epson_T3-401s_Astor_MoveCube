@@ -1,11 +1,11 @@
-ENVT0100,LM:2022/07/18 09:55:10:385,DS:0000007297,CS:13060,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/18 11:59:57:774,DS:0000007443,CS:19789,MA:FC-77-74-69-80-CE,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
 	sGUID="0ca3ad77-3af9-44a0-9656-a944fdc817a3"
 	sPath="D:\\EpsonRC70\\Projects\\EPSON_Projekt_Astor\\"
 	sCreated="17.07.2022 10:25:39"
-	sLastModified="18.07.2022 11:55:10"
+	sLastModified="18.07.2022 13:59:57"
 	bBuildComplete=False
 	bFirstBuildComplete=True
 	bRebuildRequired=False
@@ -38,7 +38,7 @@ UserErrorsFile {
 	nChecksum=0
 }
 nRobotCount=1
-nProgramFileCount=2
+nProgramFileCount=3
 ProgramFile1 {
 	sName="Main.prg"
 	bCompiled=True
@@ -47,9 +47,15 @@ ProgramFile1 {
 }
 ProgramFile2 {
 	sName="MoveCube_Program.prg"
+	bCompiled=True
+	bStoreInController=True
+	sTimeSavedInController="18.07.2022 11:55:37"
+}
+ProgramFile3 {
+	sName="Move_Cube_back_Program.prg"
 	bCompiled=False
 	bStoreInController=True
-	sTimeSavedInController="18.07.2022 09:16:53"
+	sTimeSavedInController="18.07.2022 11:57:08"
 }
 nIncludeFileCount=0
 nPointFileCount=1
