@@ -1,51 +1,62 @@
-ENVT0100,LM:2022/07/18 12:05:25:444,DS:0000003221,CS:14679,MA:FC-77-74-69-80-CE,EI:           
-sActiveChild="Command"
-bMdiMaximized=False
-nProgramFileCount=3
+ENVT0100,LM:2022/07/20 11:10:13:866,DS:0000003376,CS:15482,MA:FC-77-74-69-80-CE,EI:           
+sActiveChild="Run"
+bMdiMaximized=True
+nProgramFileCount=4
 ProgramFile1 {
 	sName="Main.prg"
 	bOpened=True
-	nWinState=1
+	nWinState=0
 	Window {
 		nLeft=4
 		nTop=49
-		nWidth=722
-		nHeight=474
+		nWidth=721
+		nHeight=470
 	}
 }
 ProgramFile2 {
 	sName="MoveCube_Program.prg"
 	bOpened=True
-	nWinState=1
+	nWinState=0
 	Window {
 		nLeft=187
 		nTop=24
-		nWidth=720
-		nHeight=612
+		nWidth=719
+		nHeight=608
 	}
 }
 ProgramFile3 {
 	sName="Move_Cube_back_Program.prg"
 	bOpened=True
-	nWinState=1
+	nWinState=0
 	Window {
 		nLeft=0
 		nTop=0
-		nWidth=0
-		nHeight=0
+		nWidth=722
+		nHeight=474
+	}
+}
+ProgramFile4 {
+	sName="Robot_PLC_Communication.prg"
+	bOpened=True
+	nWinState=0
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=722
+		nHeight=474
 	}
 }
 nIncludeFileCount=0
 nPointFileCount=1
 PointFile1 {
 	sName="robot1.pts"
-	bOpened=False
+	bOpened=True
 	nWinState=0
 	Window {
 		nLeft=0
 		nTop=0
-		nWidth=0
-		nHeight=0
+		nWidth=1035
+		nHeight=452
 	}
 }
 nForceFileCount=0
@@ -53,22 +64,22 @@ sActiveWindow="main.prg"
 CmdWindow {
 	bOpened=True
 	Window {
-		nLeft=656
-		nTop=79
-		nWidth=613
-		nHeight=452
+		nLeft=306
+		nTop=111
+		nWidth=612
+		nHeight=448
 	}
 	nWinState=0
 }
 RunWindow {
-	bOpened=False
+	bOpened=True
 	Window {
 		nLeft=271
 		nTop=207
-		nWidth=741
-		nHeight=410
+		nWidth=739
+		nHeight=400
 	}
-	nWinState=0
+	nWinState=2
 	nNumOfDisplays=1
 	nSplitterDistance=364
 	Display1 {
@@ -97,22 +108,22 @@ RunWindow {
 	}
 }
 IOLabelEditor {
-	bOpened=True
+	bOpened=False
 	Window {
 		nLeft=0
 		nTop=0
-		nWidth=1022
-		nHeight=452
+		nWidth=1021
+		nHeight=448
 	}
 	nWinState=0
 }
 IOMonitor {
 	bOpened=False
 	Window {
-		nLeft=87
-		nTop=391
+		nLeft=966
+		nTop=50
 		nWidth=520
-		nHeight=375
+		nHeight=745
 	}
 }
 Simulator {

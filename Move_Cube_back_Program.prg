@@ -91,7 +91,7 @@ Function MoveCube_back(Place As Integer, Cube As Integer)
 		Case 2 'K2 - kolor czerwony gorny srodek
 			'instrukcje do poniesienia
 			Jump K2 C1 'LimZ wartosc 'dojazd do punktu pobrania kostki 
-			On Przyssawka 'zalaczenie przyssawki
+			Off Przyssawka 'zalaczenie przyssawki
 			Wait .5
 		Case 3 'K3 - kolor czerwony gorny prawy
 			'instrukcje do poniesienia
@@ -102,7 +102,7 @@ Function MoveCube_back(Place As Integer, Cube As Integer)
 		Case 4 'K4 - kolor pomaranczowy srodek lewy
 			'instrukcje do poniesienia
 			Jump K4 C1 'LimZ wartosc 'dojazd do punktu pobrania kostki 
-			On Przyssawka 'zalaczenie przyssawki
+			Off Przyssawka 'zalaczenie przyssawki
 			Wait .5
 		Case 5 'K5 - kolor pomaranczowy srodek srodek
 			'instrukcje do poniesienia

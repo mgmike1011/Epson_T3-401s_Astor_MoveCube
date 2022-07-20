@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/07/17 08:25:39:457,DS:0000000497,CS:26632,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/18 08:57:41:634,DS:0000000564,CS:21867,MA:FC-77-74-69-80-CE,EI:           
 sRCVersion="7.5.2"
 InputBitLabels {
 	nNumberOfLabels=0
@@ -10,7 +10,12 @@ InputWordLabels {
 	nNumberOfLabels=0
 }
 OutputBitLabels {
-	nNumberOfLabels=0
+	nNumberOfLabels=1
+	Label1 {
+		nBit=8
+		sLabel="Przyssawka"
+		sDescription=""
+	}
 }
 OutputByteLabels {
 	nNumberOfLabels=0
