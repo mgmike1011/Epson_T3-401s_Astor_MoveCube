@@ -1,11 +1,10 @@
-ENVT0100,LM:2022/07/21 07:11:14:350,DS:0000005905,CS:27152,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/21 12:57:22:886,DS:0000006190,CS:07727,MA:FC-77-74-69-80-CE,EI:           
 sVersion="2.0.0"
-nDisplayMode=2
 bDisplayR=False
 bDisplayS=False
 bDisplayT=False
 nNumberOfJoints=4
-nNumberOfPoints=18
+nNumberOfPoints=19
 Point1 {
 	nNumber=0
 	sLabel="K1"
@@ -457,6 +456,32 @@ Point18 {
 	rY=344.406
 	rZ=-64
 	rU=196.825
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point19 {
+	nNumber=18
+	sLabel="Home_pos"
+	sDescription=""
+	nUndefined=0
+	rX=20.446
+	rY=258.593
+	rZ=-0.459
+	rU=196.81
 	rV=0
 	rW=0
 	rR=0

@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/07/21 07:08:24:949,DS:0000005905,CS:24858,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/21 07:11:14:350,DS:0000005905,CS:27152,MA:FC-77-74-69-80-CE,EI:           
 sVersion="2.0.0"
 nDisplayMode=2
 bDisplayR=False
@@ -12,7 +12,7 @@ Point1 {
 	sDescription="K1 - kostka czerwona 1"
 	nUndefined=0
 	rX=-38.427
-	rY=193.704
+	rY=195.225
 	rZ=-64
 	rU=196.808
 	rV=0
@@ -454,7 +454,7 @@ Point18 {
 	sDescription="Pole_9 - dol prawo"
 	nUndefined=0
 	rX=34.225
-	rY=341.789
+	rY=344.406
 	rZ=-64
 	rU=196.825
 	rV=0

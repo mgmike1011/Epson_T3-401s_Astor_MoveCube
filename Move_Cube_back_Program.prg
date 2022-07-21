@@ -12,10 +12,10 @@ Function MoveCube_back(Place As Integer, Cube As Integer)
 	'Ustawienie parametrow
 	If Motor = Off Then Motor On
 	Power High
-	Speed 60
-	Accel 60, 60
-	SpeedS 1000
-	AccelS 1000
+	Speed 50
+	Accel 50, 50
+	SpeedS 800
+	AccelS 800
 	
 	'Definicja luku
 	Arch 1, 20, 20
@@ -24,7 +24,8 @@ Function MoveCube_back(Place As Integer, Cube As Integer)
 	TmReset 1
 	
 	'Dojazd do pozycji domowej
-	Home
+	'Home
+	Jump Home_pos
 		
 	'Wybor miejsca
 	Select Place
@@ -143,7 +144,8 @@ Function MoveCube_back(Place As Integer, Cube As Integer)
 	Send
 	
 	'Odjazd do pozycji domowej
-	Home
+	'Home
+	Jump Home_pos
 	
 	'Wyswietlenie wartosci Timera
 	Print "Czas wykonania: ", Tmr(1), "s"

@@ -24,7 +24,8 @@ Function MoveCube_back(Place As Integer, Cube As Integer)
 	TmReset 1
 	
 	'Dojazd do pozycji domowej
-	Home
+	'Home
+	Jump Home_pos
 		
 	'Wybor miejsca
 	Select Place
@@ -91,7 +92,7 @@ Function MoveCube_back(Place As Integer, Cube As Integer)
 		Case 2 'K2 - kolor czerwony gorny srodek
 			'instrukcje do poniesienia
 			Jump K2 C1 'LimZ wartosc 'dojazd do punktu pobrania kostki 
-			On Przyssawka 'zalaczenie przyssawki
+			Off Przyssawka 'zalaczenie przyssawki
 			Wait .5
 		Case 3 'K3 - kolor czerwony gorny prawy
 			'instrukcje do poniesienia
@@ -143,7 +144,8 @@ Function MoveCube_back(Place As Integer, Cube As Integer)
 	Send
 	
 	'Odjazd do pozycji domowej
-	Home
+	'Home
+	Jump Home_pos
 	
 	'Wyswietlenie wartosci Timera
 	Print "Czas wykonania: ", Tmr(1), "s"

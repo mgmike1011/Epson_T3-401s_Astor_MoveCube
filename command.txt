@@ -116,4 +116,15 @@ Print #35,2 >
 > Motor off
 > 
 > 
+> Home
+!!Error: 1028, Cannot execute in Auto mode except from the main console.
+> Home
+!!Error: 1028, Cannot execute in Auto mode except from the main console.
+> Home
+!!Error: 4031, Cannot execute a motion command when the motor is in the off state.
+> Motor On
+> Home
+> Motor Off
+> HomeSet
+99844, 228006, -575, 10512
 > 
