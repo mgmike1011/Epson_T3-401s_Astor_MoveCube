@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/07/18 08:57:41:634,DS:0000000564,CS:21867,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/20 09:56:12:612,DS:0000002679,CS:09829,MA:FC-77-74-69-80-CE,EI:           
 sRCVersion="7.5.2"
 InputBitLabels {
 	nNumberOfLabels=0
@@ -7,7 +7,147 @@ InputByteLabels {
 	nNumberOfLabels=0
 }
 InputWordLabels {
-	nNumberOfLabels=0
+	nNumberOfLabels=28
+	Label1 {
+		nWord=32
+		sLabel="P1_Kierunek"
+		sDescription="Kierunek 1 - z kostek na pole, 2 - z pola do kostek"
+	}
+	Label2 {
+		nWord=33
+		sLabel="P1_Pole"
+		sDescription="Pole_1, Pole_2, Pole_3,..."
+	}
+	Label3 {
+		nWord=34
+		sLabel="P1_Kostka"
+		sDescription="K1,K2,K3,K4,..."
+	}
+	Label4 {
+		nWord=35
+		sLabel="P2_Kierunek"
+		sDescription=""
+	}
+	Label5 {
+		nWord=36
+		sLabel="P2_Pole"
+		sDescription=""
+	}
+	Label6 {
+		nWord=37
+		sLabel="P2_Kostka"
+		sDescription=""
+	}
+	Label7 {
+		nWord=38
+		sLabel="P3_Kierunek"
+		sDescription=""
+	}
+	Label8 {
+		nWord=39
+		sLabel="P3_Pole"
+		sDescription=""
+	}
+	Label9 {
+		nWord=40
+		sLabel="P3_Kostka"
+		sDescription=""
+	}
+	Label10 {
+		nWord=41
+		sLabel="P4_Kierunek"
+		sDescription=""
+	}
+	Label11 {
+		nWord=42
+		sLabel="P4_Pole"
+		sDescription=""
+	}
+	Label12 {
+		nWord=43
+		sLabel="P4_Kostka"
+		sDescription=""
+	}
+	Label13 {
+		nWord=44
+		sLabel="P5_Kierunek"
+		sDescription=""
+	}
+	Label14 {
+		nWord=45
+		sLabel="P5_Pole"
+		sDescription=""
+	}
+	Label15 {
+		nWord=46
+		sLabel="P5_Kostka"
+		sDescription=""
+	}
+	Label16 {
+		nWord=47
+		sLabel="P6_Kierunek"
+		sDescription=""
+	}
+	Label17 {
+		nWord=48
+		sLabel="P6_Pole"
+		sDescription=""
+	}
+	Label18 {
+		nWord=49
+		sLabel="P6_Kostka"
+		sDescription=""
+	}
+	Label19 {
+		nWord=50
+		sLabel="P7_Kierunek"
+		sDescription=""
+	}
+	Label20 {
+		nWord=51
+		sLabel="P7_Pole"
+		sDescription=""
+	}
+	Label21 {
+		nWord=52
+		sLabel="P7_Kostka"
+		sDescription=""
+	}
+	Label22 {
+		nWord=53
+		sLabel="P8_Kierunek"
+		sDescription=""
+	}
+	Label23 {
+		nWord=54
+		sLabel="P8_Pole"
+		sDescription=""
+	}
+	Label24 {
+		nWord=55
+		sLabel="P8_Kostka"
+		sDescription=""
+	}
+	Label25 {
+		nWord=56
+		sLabel="P9_Kierunek"
+		sDescription=""
+	}
+	Label26 {
+		nWord=57
+		sLabel="P9_Pole"
+		sDescription=""
+	}
+	Label27 {
+		nWord=58
+		sLabel="P9_Kostka"
+		sDescription=""
+	}
+	Label28 {
+		nWord=59
+		sLabel="Status_zmiany"
+		sDescription=""
+	}
 }
 OutputBitLabels {
 	nNumberOfLabels=1
@@ -21,7 +161,12 @@ OutputByteLabels {
 	nNumberOfLabels=0
 }
 OutputWordLabels {
-	nNumberOfLabels=0
+	nNumberOfLabels=1
+	Label1 {
+		nWord=32
+		sLabel="Status_pracy"
+		sDescription="Status_wykonywanej pracy"
+	}
 }
 MemoryBitLabels {
 	nNumberOfLabels=0

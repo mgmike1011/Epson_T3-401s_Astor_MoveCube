@@ -5,6 +5,7 @@ Function PLC_Robot
 		stan = InW(59)
 		If stan = 1 Then 'Jezeli jest zezwolenie
 			OutW Status_pracy, 0
+			OutW Status_bar, 1
 			'#########
 			'Pole_1
 			'#########
@@ -13,6 +14,7 @@ Function PLC_Robot
 			ElseIf InW(32) = 2 Then 'Z planszy do kostek
 				Call MoveCube_back(InW(33), InW(34))
 			EndIf
+			OutW Status_bar, 2
 			'#########
 			'Pole_2
 			'#########
@@ -21,6 +23,7 @@ Function PLC_Robot
 			ElseIf InW(35) = 2 Then 'Z planszy do kostek
 				Call MoveCube_back(InW(36), InW(37))
 			EndIf
+			OutW Status_bar, 3
 			'#########
 			'Pole_3
 			'#########
@@ -29,6 +32,7 @@ Function PLC_Robot
 			ElseIf InW(38) = 2 Then 'Zplanszy do kostek
 				Call MoveCube_back(InW(39), InW(40))
 			EndIf
+			OutW Status_bar, 4
 			'#########
 			'Pole_4
 			'#########
@@ -37,6 +41,7 @@ Function PLC_Robot
 			ElseIf InW(41) = 2 Then 'Zplanszy do kostek
 				Call MoveCube_back(InW(42), InW(43))
 			EndIf
+			OutW Status_bar, 5
 			'#########
 			'Pole_5
 			'#########
@@ -45,6 +50,7 @@ Function PLC_Robot
 			ElseIf InW(44) = 2 Then 'Zplanszy do kostek
 				Call MoveCube_back(InW(45), InW(46))
 			EndIf
+			OutW Status_bar, 6
 			'#########
 			'Pole_6
 			'#########
@@ -53,6 +59,7 @@ Function PLC_Robot
 			ElseIf InW(47) = 2 Then 'Zplanszy do kostek
 				Call MoveCube_back(InW(48), InW(49))
 			EndIf
+			OutW Status_bar, 7
 			'#########
 			'Pole_7
 			'#########
@@ -61,6 +68,7 @@ Function PLC_Robot
 			ElseIf InW(50) = 2 Then 'Zplanszy do kostek
 				Call MoveCube_back(InW(51), InW(52))
 			EndIf
+			OutW Status_bar, 8
 			'#########
 			'Pole_8
 			'#########
@@ -69,6 +77,7 @@ Function PLC_Robot
 			ElseIf InW(53) = 2 Then 'Zplanszy do kostek
 				Call MoveCube_back(InW(54), InW(55))
 			EndIf
+			OutW Status_bar, 9
 			'#########
 			'Pole_9
 			'#########
@@ -77,6 +86,7 @@ Function PLC_Robot
 			ElseIf InW(56) = 2 Then 'Zplanszy do kostek
 				Call MoveCube_back(InW(57), InW(58))
 			EndIf
+			OutW Status_bar, 10
 			'Wyslanie informacji o zakonczonej pracy do plc
 			OutW 32, 1
 			Wait 1

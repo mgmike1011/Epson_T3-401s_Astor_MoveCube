@@ -84,7 +84,9 @@ Print #35,2 >
 
 > Print FbusIO_InW(1,1,1)
 !!Error: 3207, Formula is missing.
-> Print InW(32)
+> Print InW(32)Home
+!!Error: 3100, Syntax error.
+> 
  1
 > Print InW(33)
  2
@@ -105,4 +107,13 @@ Print #35,2 >
  2
 > Motor Off
 > Motor Off
+> Home
+> Motor Off
+> 
+> OutW 32, 0
+> OutW 32,1
+> Home
+> Motor off
+> 
+> 
 > 

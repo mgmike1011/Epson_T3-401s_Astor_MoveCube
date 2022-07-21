@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/07/20 10:54:59:758,DS:0000005976,CS:23834,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/21 07:11:14:350,DS:0000005905,CS:27152,MA:FC-77-74-69-80-CE,EI:           
 sVersion="2.0.0"
 nDisplayMode=2
 bDisplayR=False
@@ -12,8 +12,8 @@ Point1 {
 	sDescription="K1 - kostka czerwona 1"
 	nUndefined=0
 	rX=-38.427
-	rY=193.704
-	rZ=-64.95
+	rY=195.225
+	rZ=-64
 	rU=196.808
 	rV=0
 	rW=0
@@ -39,7 +39,7 @@ Point2 {
 	nUndefined=0
 	rX=-102.963
 	rY=195.225
-	rZ=-63.201
+	rZ=-64
 	rU=196.813
 	rV=0
 	rW=0
@@ -65,7 +65,7 @@ Point3 {
 	nUndefined=0
 	rX=-169.373
 	rY=195.223
-	rZ=-62.473
+	rZ=-64
 	rU=196.813
 	rV=0
 	rW=0
@@ -91,7 +91,7 @@ Point4 {
 	nUndefined=0
 	rX=-40.976
 	rY=267.479
-	rZ=-63.813
+	rZ=-64
 	rU=196.813
 	rV=0
 	rW=0
@@ -117,7 +117,7 @@ Point5 {
 	nUndefined=0
 	rX=-104.375
 	rY=267.478
-	rZ=-62.567
+	rZ=-64
 	rU=196.812
 	rV=0
 	rW=0
@@ -143,7 +143,7 @@ Point6 {
 	nUndefined=0
 	rX=-169.86
 	rY=267.477
-	rZ=-64.116
+	rZ=-64
 	rU=196.81
 	rV=0
 	rW=0
@@ -169,7 +169,7 @@ Point7 {
 	nUndefined=0
 	rX=-41.952
 	rY=338.617
-	rZ=-61.858
+	rZ=-64
 	rU=196.817
 	rV=0
 	rW=0
@@ -195,7 +195,7 @@ Point8 {
 	nUndefined=0
 	rX=-106.176
 	rY=338.617
-	rZ=-61.241
+	rZ=-64
 	rU=196.819
 	rV=0
 	rW=0
@@ -221,7 +221,7 @@ Point9 {
 	nUndefined=0
 	rX=-172.361
 	rY=338.617
-	rZ=-62.541
+	rZ=-64
 	rU=196.827
 	rV=0
 	rW=0
@@ -247,7 +247,7 @@ Point10 {
 	nUndefined=0
 	rX=171.7
 	rY=198.899
-	rZ=-63.186
+	rZ=-64
 	rU=196.821
 	rV=0
 	rW=0
@@ -273,7 +273,7 @@ Point11 {
 	nUndefined=0
 	rX=103.386
 	rY=198.899
-	rZ=-63.716
+	rZ=-64
 	rU=196.82
 	rV=0
 	rW=0
@@ -299,7 +299,7 @@ Point12 {
 	nUndefined=0
 	rX=35.139
 	rY=198.899
-	rZ=-63.315
+	rZ=-64
 	rU=196.825
 	rV=0
 	rW=0
@@ -325,7 +325,7 @@ Point13 {
 	nUndefined=0
 	rX=169.999
 	rY=269.856
-	rZ=-62.188
+	rZ=-64
 	rU=196.824
 	rV=0
 	rW=0
@@ -351,7 +351,7 @@ Point14 {
 	nUndefined=0
 	rX=101.987
 	rY=269.856
-	rZ=-62.828
+	rZ=-64
 	rU=196.824
 	rV=0
 	rW=0
@@ -377,7 +377,7 @@ Point15 {
 	nUndefined=0
 	rX=33.622
 	rY=272.665
-	rZ=-61.005
+	rZ=-64
 	rU=196.821
 	rV=0
 	rW=0
@@ -403,7 +403,7 @@ Point16 {
 	nUndefined=0
 	rX=170.723
 	rY=344.406
-	rZ=-60.973
+	rZ=-64
 	rU=196.824
 	rV=0
 	rW=0
@@ -429,7 +429,7 @@ Point17 {
 	nUndefined=0
 	rX=100.829
 	rY=344.406
-	rZ=-62.863
+	rZ=-64
 	rU=196.825
 	rV=0
 	rW=0
@@ -454,8 +454,8 @@ Point18 {
 	sDescription="Pole_9 - dol prawo"
 	nUndefined=0
 	rX=34.225
-	rY=341.789
-	rZ=-63.413
+	rY=344.406
+	rZ=-64
 	rU=196.825
 	rV=0
 	rW=0

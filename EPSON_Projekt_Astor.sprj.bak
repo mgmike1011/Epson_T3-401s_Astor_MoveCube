@@ -1,11 +1,11 @@
-ENVT0100,LM:2022/07/20 11:07:29:227,DS:0000007590,CS:10311,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/21 09:04:59:602,DS:0000007590,CS:08517,MA:FC-77-74-69-80-CE,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
 	sGUID="0ca3ad77-3af9-44a0-9656-a944fdc817a3"
 	sPath="D:\\EpsonRC70\\Projects\\EPSON_Projekt_Astor\\"
 	sCreated="17.07.2022 10:25:39"
-	sLastModified="20.07.2022 13:07:29"
+	sLastModified="21.07.2022 11:04:59"
 	bBuildComplete=False
 	bFirstBuildComplete=True
 	bRebuildRequired=False
@@ -41,7 +41,7 @@ nRobotCount=1
 nProgramFileCount=4
 ProgramFile1 {
 	sName="Main.prg"
-	bCompiled=True
+	bCompiled=False
 	bStoreInController=True
 	sTimeSavedInController="20.07.2022 08:36:17"
 }
@@ -59,9 +59,9 @@ ProgramFile3 {
 }
 ProgramFile4 {
 	sName="Robot_PLC_Communication.prg"
-	bCompiled=False
+	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="20.07.2022 10:52:40"
+	sTimeSavedInController="20.07.2022 20:39:18"
 }
 nIncludeFileCount=0
 nPointFileCount=1
@@ -69,7 +69,7 @@ PointFile1 {
 	sName="robot1.pts"
 	nRobot=1
 	bDefault=True
-	sTimeSavedInController="20.07.2022 10:54:59"
+	sTimeSavedInController="21.07.2022 07:11:14"
 }
 nForceFileCount=0
 OperatorSettings {

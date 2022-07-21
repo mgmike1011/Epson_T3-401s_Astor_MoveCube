@@ -1,6 +1,6 @@
-ENVT0100,LM:2022/07/20 11:10:13:866,DS:0000003376,CS:15482,MA:FC-77-74-69-80-CE,EI:           
-sActiveChild="Run"
-bMdiMaximized=True
+ENVT0100,LM:2022/07/21 09:31:14:057,DS:0000003409,CS:12114,MA:FC-77-74-69-80-CE,EI:           
+sActiveChild="Robot_PLC_Communication.prg"
+bMdiMaximized=False
 nProgramFileCount=4
 ProgramFile1 {
 	sName="Main.prg"
@@ -55,14 +55,14 @@ PointFile1 {
 	Window {
 		nLeft=0
 		nTop=0
-		nWidth=1035
-		nHeight=452
+		nWidth=1034
+		nHeight=448
 	}
 }
 nForceFileCount=0
 sActiveWindow="main.prg"
 CmdWindow {
-	bOpened=True
+	bOpened=False
 	Window {
 		nLeft=306
 		nTop=111
@@ -74,12 +74,12 @@ CmdWindow {
 RunWindow {
 	bOpened=True
 	Window {
-		nLeft=271
-		nTop=207
-		nWidth=739
-		nHeight=400
+		nLeft=79
+		nTop=165
+		nWidth=737
+		nHeight=397
 	}
-	nWinState=2
+	nWinState=0
 	nNumOfDisplays=1
 	nSplitterDistance=364
 	Display1 {
@@ -108,12 +108,12 @@ RunWindow {
 	}
 }
 IOLabelEditor {
-	bOpened=False
+	bOpened=True
 	Window {
-		nLeft=0
-		nTop=0
-		nWidth=1021
-		nHeight=448
+		nLeft=718
+		nTop=5
+		nWidth=609
+		nHeight=445
 	}
 	nWinState=0
 }
@@ -138,10 +138,10 @@ Simulator {
 TaskMgr {
 	bOpened=False
 	Window {
-		nLeft=0
-		nTop=0
-		nWidth=0
-		nHeight=0
+		nLeft=244
+		nTop=209
+		nWidth=899
+		nHeight=274
 	}
 }
 Macros {
