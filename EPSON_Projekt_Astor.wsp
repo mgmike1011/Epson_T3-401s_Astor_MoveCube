@@ -1,5 +1,5 @@
-ENVT0100,LM:2022/07/21 11:29:50:851,DS:0000003392,CS:13110,MA:FC-77-74-69-80-CE,EI:           
-sActiveChild="Main.prg"
+ENVT0100,LM:2022/07/21 11:55:39:048,DS:0000003394,CS:06512,MA:FC-77-74-69-80-CE,EI:           
+sActiveChild="robot1.pts"
 bMdiMaximized=False
 nProgramFileCount=4
 ProgramFile1 {
