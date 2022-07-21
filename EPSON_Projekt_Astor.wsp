@@ -1,5 +1,5 @@
-ENVT0100,LM:2022/07/21 09:31:14:057,DS:0000003409,CS:12114,MA:FC-77-74-69-80-CE,EI:           
-sActiveChild="Robot_PLC_Communication.prg"
+ENVT0100,LM:2022/07/21 11:29:50:851,DS:0000003392,CS:13110,MA:FC-77-74-69-80-CE,EI:           
+sActiveChild="Main.prg"
 bMdiMaximized=False
 nProgramFileCount=4
 ProgramFile1 {
@@ -72,12 +72,12 @@ CmdWindow {
 	nWinState=0
 }
 RunWindow {
-	bOpened=True
+	bOpened=False
 	Window {
-		nLeft=79
+		nLeft=12
 		nTop=165
-		nWidth=737
-		nHeight=397
+		nWidth=735
+		nHeight=390
 	}
 	nWinState=0
 	nNumOfDisplays=1
@@ -108,7 +108,7 @@ RunWindow {
 	}
 }
 IOLabelEditor {
-	bOpened=True
+	bOpened=False
 	Window {
 		nLeft=718
 		nTop=5

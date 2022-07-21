@@ -1,4 +1,4 @@
 Function main
-	
+FCall PLC_Robot()
 Fend
 
