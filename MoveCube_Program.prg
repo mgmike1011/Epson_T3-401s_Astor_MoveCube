@@ -22,7 +22,7 @@ Function MoveCube(Place As Integer, Cube As Integer)
 	
 	'Ustawienie Timera
 	TmReset 1
-	
+	OutW Czas_cyklu, 0
 	'Dojazd do pozycji domowej
 	'Home
 	Jump Home_pos
@@ -151,6 +151,7 @@ Function MoveCube(Place As Integer, Cube As Integer)
 	
 	'Wyswietlenie wartosci Timera
 	Print "Czas wykonania: ", Tmr(1), "s"
+	OutW Czas_cyklu, Tmr(1) * 100
 	
 	'Do zdefiniowania: 
 	'Punkty pobrania kostek: K1, K2, K3, K4, K5, K6, K7, K9, K9

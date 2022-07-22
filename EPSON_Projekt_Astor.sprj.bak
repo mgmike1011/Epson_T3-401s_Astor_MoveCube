@@ -1,11 +1,11 @@
-ENVT0100,LM:2022/07/21 13:02:55:189,DS:0000007591,CS:23901,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/22 07:02:56:516,DS:0000007591,CS:24154,MA:FC-77-74-69-80-CE,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
 	sGUID="0ca3ad77-3af9-44a0-9656-a944fdc817a3"
 	sPath="D:\\EpsonRC70\\Projects\\EPSON_Projekt_Astor\\"
 	sCreated="17.07.2022 10:25:39"
-	sLastModified="21.07.2022 15:02:53"
+	sLastModified="22.07.2022 09:02:55"
 	bBuildComplete=False
 	bFirstBuildComplete=True
 	bRebuildRequired=False
@@ -49,13 +49,13 @@ ProgramFile2 {
 	sName="MoveCube_Program.prg"
 	bCompiled=False
 	bStoreInController=True
-	sTimeSavedInController="21.07.2022 13:01:11"
+	sTimeSavedInController="22.07.2022 06:59:52"
 }
 ProgramFile3 {
 	sName="Move_Cube_back_Program.prg"
 	bCompiled=False
 	bStoreInController=True
-	sTimeSavedInController="21.07.2022 13:00:53"
+	sTimeSavedInController="22.07.2022 07:01:00"
 }
 ProgramFile4 {
 	sName="Robot_PLC_Communication.prg"

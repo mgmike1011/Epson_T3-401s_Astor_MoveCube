@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/07/21 13:05:27:331,DS:0000003403,CS:19828,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/22 07:43:31:437,DS:0000003405,CS:05170,MA:FC-77-74-69-80-CE,EI:           
 sActiveChild="Run - Remote Console"
 bMdiMaximized=False
 nProgramFileCount=4
@@ -16,7 +16,7 @@ ProgramFile1 {
 ProgramFile2 {
 	sName="MoveCube_Program.prg"
 	bOpened=True
-	nWinState=0
+	nWinState=1
 	Window {
 		nLeft=187
 		nTop=24
@@ -62,7 +62,7 @@ PointFile1 {
 nForceFileCount=0
 sActiveWindow="main.prg"
 CmdWindow {
-	bOpened=True
+	bOpened=False
 	Window {
 		nLeft=306
 		nTop=111
@@ -76,8 +76,8 @@ RunWindow {
 	Window {
 		nLeft=12
 		nTop=165
-		nWidth=734
-		nHeight=385
+		nWidth=733
+		nHeight=382
 	}
 	nWinState=0
 	nNumOfDisplays=1
@@ -108,12 +108,12 @@ RunWindow {
 	}
 }
 IOLabelEditor {
-	bOpened=False
+	bOpened=True
 	Window {
-		nLeft=718
-		nTop=5
-		nWidth=609
-		nHeight=445
+		nLeft=413
+		nTop=-10
+		nWidth=706
+		nHeight=613
 	}
 	nWinState=0
 }

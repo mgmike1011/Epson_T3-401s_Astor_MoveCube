@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/07/20 09:56:12:612,DS:0000002679,CS:09829,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/20 20:36:49:117,DS:0000002772,CS:23062,MA:FC-77-74-69-80-CE,EI:           
 sRCVersion="7.5.2"
 InputBitLabels {
 	nNumberOfLabels=0
@@ -161,11 +161,16 @@ OutputByteLabels {
 	nNumberOfLabels=0
 }
 OutputWordLabels {
-	nNumberOfLabels=1
+	nNumberOfLabels=2
 	Label1 {
 		nWord=32
 		sLabel="Status_pracy"
 		sDescription="Status_wykonywanej pracy"
+	}
+	Label2 {
+		nWord=33
+		sLabel="Status_bar"
+		sDescription="Postep wykonywanej pracy"
 	}
 }
 MemoryBitLabels {

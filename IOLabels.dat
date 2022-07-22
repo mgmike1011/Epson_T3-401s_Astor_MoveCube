@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/07/20 20:36:49:117,DS:0000002772,CS:23062,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/22 06:56:46:893,DS:0000002865,CS:15718,MA:FC-77-74-69-80-CE,EI:           
 sRCVersion="7.5.2"
 InputBitLabels {
 	nNumberOfLabels=0
@@ -161,7 +161,7 @@ OutputByteLabels {
 	nNumberOfLabels=0
 }
 OutputWordLabels {
-	nNumberOfLabels=2
+	nNumberOfLabels=3
 	Label1 {
 		nWord=32
 		sLabel="Status_pracy"
@@ -171,6 +171,11 @@ OutputWordLabels {
 		nWord=33
 		sLabel="Status_bar"
 		sDescription="Postep wykonywanej pracy"
+	}
+	Label3 {
+		nWord=34
+		sLabel="Czas_cyklu"
+		sDescription="Czas jednego przelozenia"
 	}
 }
 MemoryBitLabels {
