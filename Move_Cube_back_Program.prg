@@ -22,7 +22,7 @@ Function MoveCube_back(Place As Integer, Cube As Integer)
 	
 	'Ustawienie Timera
 	TmReset 1
-	OutW Czas_cyklu, 0
+	'OutW Czas_cyklu, 0
 	'Dojazd do pozycji domowej
 	'Home
 	Jump Home_pos
@@ -149,6 +149,7 @@ Function MoveCube_back(Place As Integer, Cube As Integer)
 	
 	'Wyswietlenie wartosci Timera
 	Print "Czas wykonania: ", Tmr(1), "s"
+	'MemOutW czas, Tmr(1) * 100
 	OutW Czas_cyklu, Tmr(1) * 100
 	
 	'Do zdefiniowania: 

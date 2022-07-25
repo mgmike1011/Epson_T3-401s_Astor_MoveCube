@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/07/22 06:56:46:893,DS:0000002865,CS:15718,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/25 08:13:54:135,DS:0000002927,CS:01102,MA:FC-77-74-69-80-CE,EI:           
 sRCVersion="7.5.2"
 InputBitLabels {
 	nNumberOfLabels=0
@@ -185,5 +185,10 @@ MemoryByteLabels {
 	nNumberOfLabels=0
 }
 MemoryWordLabels {
-	nNumberOfLabels=0
+	nNumberOfLabels=1
+	Label1 {
+		nWord=0
+		sLabel="czas"
+		sDescription=""
+	}
 }

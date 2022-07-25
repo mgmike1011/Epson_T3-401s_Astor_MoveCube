@@ -15,6 +15,7 @@ Function PLC_Robot
 				Call MoveCube_back(InW(33), InW(34))
 			EndIf
 			OutW Status_bar, 2
+			'OutW 35, MemInW(czas)
 			'#########
 			'Pole_2
 			'#########
@@ -24,6 +25,7 @@ Function PLC_Robot
 				Call MoveCube_back(InW(36), InW(37))
 			EndIf
 			OutW Status_bar, 3
+			'OutW 35, MemInW(czas)
 			'#########
 			'Pole_3
 			'#########
@@ -33,6 +35,7 @@ Function PLC_Robot
 				Call MoveCube_back(InW(39), InW(40))
 			EndIf
 			OutW Status_bar, 4
+			'OutW 35, MemInW(czas)
 			'#########
 			'Pole_4
 			'#########
@@ -42,6 +45,7 @@ Function PLC_Robot
 				Call MoveCube_back(InW(42), InW(43))
 			EndIf
 			OutW Status_bar, 5
+			'OutW 35, MemInW(czas)
 			'#########
 			'Pole_5
 			'#########
@@ -51,6 +55,7 @@ Function PLC_Robot
 				Call MoveCube_back(InW(45), InW(46))
 			EndIf
 			OutW Status_bar, 6
+			'OutW 35, MemInW(czas)
 			'#########
 			'Pole_6
 			'#########
@@ -60,6 +65,7 @@ Function PLC_Robot
 				Call MoveCube_back(InW(48), InW(49))
 			EndIf
 			OutW Status_bar, 7
+			'OutW 35, MemInW(czas)
 			'#########
 			'Pole_7
 			'#########
@@ -69,6 +75,7 @@ Function PLC_Robot
 				Call MoveCube_back(InW(51), InW(52))
 			EndIf
 			OutW Status_bar, 8
+			'OutW 35, MemInW(czas)
 			'#########
 			'Pole_8
 			'#########
@@ -78,6 +85,7 @@ Function PLC_Robot
 				Call MoveCube_back(InW(54), InW(55))
 			EndIf
 			OutW Status_bar, 9
+			'OutW 35, MemInW(czas)
 			'#########
 			'Pole_9
 			'#########
@@ -87,6 +95,7 @@ Function PLC_Robot
 				Call MoveCube_back(InW(57), InW(58))
 			EndIf
 			OutW Status_bar, 10
+			'OutW 35, MemInW(czas)
 			'Wyslanie informacji o zakonczonej pracy do plc
 			OutW 32, 1
 			Wait 1

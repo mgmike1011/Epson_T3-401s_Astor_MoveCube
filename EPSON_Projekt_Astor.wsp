@@ -1,5 +1,5 @@
-ENVT0100,LM:2022/07/22 07:43:31:437,DS:0000003405,CS:05170,MA:FC-77-74-69-80-CE,EI:           
-sActiveChild="Run - Remote Console"
+ENVT0100,LM:2022/07/25 09:32:18:110,DS:0000003416,CS:06486,MA:FC-77-74-69-80-CE,EI:           
+sActiveChild="Robot_PLC_Communication.prg"
 bMdiMaximized=False
 nProgramFileCount=4
 ProgramFile1 {
@@ -16,12 +16,12 @@ ProgramFile1 {
 ProgramFile2 {
 	sName="MoveCube_Program.prg"
 	bOpened=True
-	nWinState=1
+	nWinState=0
 	Window {
-		nLeft=187
-		nTop=24
-		nWidth=719
-		nHeight=608
+		nLeft=55
+		nTop=18
+		nWidth=715
+		nHeight=601
 	}
 }
 ProgramFile3 {
@@ -29,10 +29,10 @@ ProgramFile3 {
 	bOpened=True
 	nWinState=0
 	Window {
-		nLeft=0
-		nTop=0
-		nWidth=722
-		nHeight=474
+		nLeft=-12
+		nTop=120
+		nWidth=721
+		nHeight=470
 	}
 }
 ProgramFile4 {
@@ -62,7 +62,7 @@ PointFile1 {
 nForceFileCount=0
 sActiveWindow="main.prg"
 CmdWindow {
-	bOpened=False
+	bOpened=True
 	Window {
 		nLeft=306
 		nTop=111
@@ -72,12 +72,12 @@ CmdWindow {
 	nWinState=0
 }
 RunWindow {
-	bOpened=True
+	bOpened=False
 	Window {
-		nLeft=12
+		nLeft=11
 		nTop=165
 		nWidth=733
-		nHeight=382
+		nHeight=378
 	}
 	nWinState=0
 	nNumOfDisplays=1
@@ -108,20 +108,20 @@ RunWindow {
 	}
 }
 IOLabelEditor {
-	bOpened=True
+	bOpened=False
 	Window {
-		nLeft=413
-		nTop=-10
-		nWidth=706
-		nHeight=613
+		nLeft=-291
+		nTop=16
+		nWidth=938
+		nHeight=452
 	}
 	nWinState=0
 }
 IOMonitor {
 	bOpened=False
 	Window {
-		nLeft=966
-		nTop=50
+		nLeft=974
+		nTop=15
 		nWidth=520
 		nHeight=745
 	}

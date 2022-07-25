@@ -127,4 +127,22 @@ Print #35,2 >
 > Motor Off
 > HomeSet
 99844, 228006, -575, 10512
+> MemInW(czas)
+!!Error: 3100, Syntax error.
+> MemInW(0)
+!!Error: 3100, Syntax error.
+> OutW Czas_cyklu, MemInW(czas)
+!!Error: 1035, Cannot execute when Remote I/O enabled except from the remote device.
+> MemInW(0)
+!!Error: 3100, Syntax error.
+> OutW Czas_cyklu, MemInW(czas)
+> MemInW
+!!Error: 3100, Syntax error.
+> MemInW(0)
+!!Error: 3100, Syntax error.
+> MemOutW czas, 323
+> MemInW czas
+!!Error: 3100, Syntax error.
+> 
+!!Error: 3225, Memory word label was not specified.
 > 

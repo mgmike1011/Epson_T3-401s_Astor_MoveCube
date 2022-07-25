@@ -1,11 +1,11 @@
-ENVT0100,LM:2022/07/22 07:02:57:078,DS:0000007588,CS:11848,MA:FC-77-74-69-80-CE,EI:           
+ENVT0100,LM:2022/07/25 08:48:00:416,DS:0000007664,CS:08783,MA:FC-77-74-69-80-CE,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
 	sGUID="0ca3ad77-3af9-44a0-9656-a944fdc817a3"
 	sPath="D:\\EpsonRC70\\Projects\\EPSON_Projekt_Astor\\"
 	sCreated="17.07.2022 10:25:39"
-	sLastModified="22.07.2022 09:02:55"
+	sLastModified="25.07.2022 10:47:59"
 	bBuildComplete=True
 	bFirstBuildComplete=True
 	bRebuildRequired=False
@@ -49,19 +49,19 @@ ProgramFile2 {
 	sName="MoveCube_Program.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="22.07.2022 07:02:46"
+	sTimeSavedInController="25.07.2022 08:47:29"
 }
 ProgramFile3 {
 	sName="Move_Cube_back_Program.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="22.07.2022 07:02:55"
+	sTimeSavedInController="25.07.2022 08:47:28"
 }
 ProgramFile4 {
 	sName="Robot_PLC_Communication.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="20.07.2022 20:39:18"
+	sTimeSavedInController="25.07.2022 08:47:59"
 }
 nIncludeFileCount=0
 nPointFileCount=1
@@ -413,10 +413,18 @@ OperatorSettings {
 IOCustomView1 {
 	sName=""
 	bVisible=True
-	nNumberOfRows=1
+	nNumberOfRows=3
 	Row0 {
 		nIOGroup=3
 		nPort=8
+	}
+	Row1 {
+		nIOGroup=8
+		nPort=0
+	}
+	Row2 {
+		nIOGroup=0
+		nPort=0
 	}
 }
 IOCustomView2 {
